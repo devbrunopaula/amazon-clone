@@ -1,0 +1,18 @@
+.input {
+  display: flex;
+  flex: 1;
+}
+.input__search {
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.input__button {
+  border: none;
+  background-color: #febd69;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  outline: 0;
+}

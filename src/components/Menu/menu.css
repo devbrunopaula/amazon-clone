@@ -1,0 +1,33 @@
+.menu {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: flex-end;
+}
+
+.menu__content {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+
+  display: flex;
+  position: relative;
+}
+
+.cart {
+  display: flex;
+}
+
+.Menu__cart-count {
+  position: absolute;
+  top: -6px;
+  left: 28px;
+
+  font-size: 1.6rem;
+}
+.menu__cart-counter {
+  color: #f08817;
+  font-size: 1.3rem;
+  font-weight: 800;
+}

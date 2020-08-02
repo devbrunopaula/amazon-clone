@@ -1,0 +1,13 @@
+.nav {
+  background-color: #131821;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.nav__logo {
+  width: 140px;
+  object-fit: contain;
+
+  padding: 0.5rem 2rem 0 1rem;
+}

@@ -1,8 +1,13 @@
 import React from "react"
-import "./App.scss"
+import "./App.css"
+import Nav from "./components/Nav/Nav"
 
 function App() {
-  return <div>Amazon</div>
+  return (
+    <div>
+      <Nav />
+    </div>
+  )
 }
 
 export default App
