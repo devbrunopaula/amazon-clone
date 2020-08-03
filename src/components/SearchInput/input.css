@@ -2,6 +2,26 @@
   display: flex;
   flex: 1;
 }
+
+.input__category {
+  border: none;
+  background-color: #dadada;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  outline: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.input__category-choices {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 7px;
+}
+.input__category-choices > span {
+  font-size: 0.8rem;
+}
+
 .input__search {
   height: 40px;
   width: 100%;
@@ -15,4 +35,5 @@
   height: 40px;
   width: 45px;
   outline: 0;
+  border-radius: 0 5px 5px 0;
 }
